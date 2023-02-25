@@ -14,7 +14,7 @@ def result():
         fin="https://anoanymousphotos.blogspot.com/"
     else:
         fin="undefined"
-    st.success(fin)
+    st.success(f" my {choice} link is {fin}")
 if st.button("result"):
     # call the function
     result()
